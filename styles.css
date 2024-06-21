@@ -1,1 +1,40 @@
+/* Custom styles for dark mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
 
+body.dark-mode .bg-dark {
+    background-color: #1e1e1e !important;
+}
+
+body.dark-mode .text-white {
+    color: #ffffff !important;
+}
+
+/* Custom styles for the form and table */
+.form-inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+/* Custom styles for the carousel images */
+.carousel-item img {
+    height: 500px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    width: 100%; /* Ensure the image takes full width */
+}
+/* Custom styles for the avatar image */
+.avatar {
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    border-radius: 50%; /* Optional: Make the image round */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is a block element */
+}
